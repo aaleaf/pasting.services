@@ -19,6 +19,13 @@
   </head>
 
   <body>
+  
+	<script>
+		if (window.location.host.substr(-10) == '.github.io' && window.location.protocol != 'https:') {
+			window.location.protocol = 'https:';
+		}
+	</script>
+	
     <script type="text/javascript" src="assets/javascript/app.js"></script>
 
     <div id="main">
