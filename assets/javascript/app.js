@@ -7,8 +7,8 @@ class _app {
   skippedIntro = false;
   backgroundToggler = false;
   shouldIgnoreVideo = false;
-  effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-  brandDescription = ['detected cheats', 'retarded developments', 'dogshit bypass', '1337 tag users', 'click and join discord server'];
+  effects = ['bounce', 'flash', 'pulse', 'shake', 'swing', 'tada', 'wobble', 'jello'];
+  brandDescription = ['detected cheats', 'retard devs', 'dogshit bypass', '1337 tag users', 'click and join discord server'];
 
   titleChanger = (text, delay) => {
     if (!text) return;
